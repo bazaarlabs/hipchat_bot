@@ -9,7 +9,21 @@ and to work on Ruby 1.9.3 since the original does not seem to work.
 100% of the credit for this goes to [happy_fun_time_bot](https://github.com/gammons/happy_fun_time_bot)
 and [gammons](https://github.com/gammons) for this gem. I just made it work on 1.9.3
 
-Lets take a look at how this works!
+First install the gem:
+
+Add this line to your application's Gemfile:
+
+    gem 'hipchat_bot'
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install hipchat_bot
+
+Now let's take a look at how this works:
 
 ```ruby
 #!/usr/bin/env ruby
