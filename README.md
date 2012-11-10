@@ -71,5 +71,4 @@ HipChat Bot: Deploying now!
 
 ## Copyright
 
-Copyright (c) 2012 Nathan Esquenazi. See LICENSE.txt for further details.
 Copyright (c) 2011 Grant Ammons. See LICENSE.txt for further details.
