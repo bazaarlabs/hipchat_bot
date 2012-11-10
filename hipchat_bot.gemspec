@@ -20,6 +20,5 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency('httparty', ">= 0")
   gem.add_development_dependency('rspec', "~> 2.3.0")
   gem.add_development_dependency('yard', "~> 0.6.0")
-  gem.add_development_dependency('bundler', "~> 1.0.0")
-  gem.add_development_dependency('jeweler', "~> 1.6.0")
+  gem.add_development_dependency('bundler', "~> 1")
 end
