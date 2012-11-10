@@ -8,6 +8,5 @@ gem 'httparty'
 group :development do
   gem "rspec", "~> 2.3.0"
   gem "yard", "~> 0.6.0"
-  gem "rcov", ">= 0"
   gem 'gemfury_helpers'
 end

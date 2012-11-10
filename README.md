@@ -1,4 +1,4 @@
-# Happy fun time bot
+# HipchatBot
 
 Have happy fun times with this configurable XMPP bot!  It is SO easy to use, especially for Hipchat!
 
@@ -8,9 +8,9 @@ Lets take a look!
 #!/usr/bin/env ruby
 
 require 'rubygems'
-require 'happy_fun_time_bot'
+require 'hipchat_bot'
 
-@bot = HappyFunTimeBot.new(:jid => "xxxx@chat.hipchat.com", 
+@bot = HipchatBot.new(:jid => "xxxx@chat.hipchat.com", 
                            :nick => "HappyFunTime Bot", 
                            :room => "123_your_talk_chan@conf.hipchat.com", 
                            :password => "xxxx")
@@ -24,7 +24,7 @@ end
 
 ```
 Bob: !heybot what's up?
-HappyFunTime Bot:  Oh HAI Bob!!!
+HipChat Bot:  Oh HAI Bob!!!
 ```
 
 ### So many IdeazzZz!!
@@ -33,7 +33,7 @@ HappyFunTime Bot:  Oh HAI Bob!!!
 
 ```
 Bob: !findimage dog costume
-HappyFunTime Bot: Here ya go!
+HipChat Bot: Here ya go!
 ```
 ![](http://spoilurpets.com/images/Lobster%20Paws%20Dog%20Costume.JPG)
 
@@ -42,7 +42,7 @@ HappyFunTime Bot: Here ya go!
 
 ```
 Bob: !build_the_app
-HappyFunTime Bot: All tests PASSED!
+HipChat Bot: All tests PASSED!
 ```
 
 ![](http://thehairpin.com/wp-content/uploads/2010/12/womanpic1001_228x342.jpeg)
@@ -51,7 +51,7 @@ HappyFunTime Bot: All tests PASSED!
 
 ```
 Bob: !deploy
-HappyFunTime Bot: Deploying now!
+HipChat Bot: Deploying now!
 ```
 
 ### Bot creation Options:
@@ -64,4 +64,5 @@ HappyFunTime Bot: Deploying now!
 
 ## Copyright
 
+Copyright (c) 2012 Nathan Esquenazi. See LICENSE.txt for further details.
 Copyright (c) 2011 Grant Ammons. See LICENSE.txt for further details.

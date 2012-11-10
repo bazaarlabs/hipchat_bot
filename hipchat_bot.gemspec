@@ -15,12 +15,11 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = HipchatBot::VERSION
 
-  gem.add_runtime_dependency(%q<xmpp4r>, ">= 0")
-  gem.add_runtime_dependency(%q<json>, ">= 0")
-  gem.add_runtime_dependency(%q<httparty>, ">= 0")
-  gem.add_development_dependency(%q<rspec>, "~> 2.3.0")
-  gem.add_development_dependency(%q<yard>, "~> 0.6.0")
-  gem.add_development_dependency(%q<bundler>, "~> 1.0.0")
-  gem.add_development_dependency(%q<jeweler>, "~> 1.6.0")
-  gem.add_development_dependency(%q<rcov>, ">= 0")
+  gem.add_runtime_dependency('xmpp4r', ">= 0")
+  gem.add_runtime_dependency('json', ">= 0")
+  gem.add_runtime_dependency('httparty', ">= 0")
+  gem.add_development_dependency('rspec', "~> 2.3.0")
+  gem.add_development_dependency('yard', "~> 0.6.0")
+  gem.add_development_dependency('bundler', "~> 1.0.0")
+  gem.add_development_dependency('jeweler', "~> 1.6.0")
 end
