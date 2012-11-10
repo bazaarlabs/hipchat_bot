@@ -2,13 +2,14 @@
 
 Simple and configurable bot for Hipchat! 
 
-Obviously adapted from https://github.com/gammons/happy_fun_time_bot, but revised with a new shorter name and
-to work on Ruby 1.9.3 since the original is broken. 
+**NOTE**: Originally adapted from [happy_fun_time_bot](https://github.com/gammons/happy_fun_time_bot), 
+but revised with a new shorter name, some improvements
+and to work on Ruby 1.9.3 since the original does not seem to work. 
 
-100% of the credit to https://github.com/gammons/happy_fun_time_bot
+100% of the credit for this goes to [happy_fun_time_bot](https://github.com/gammons/happy_fun_time_bot)
 and [gammons](https://github.com/gammons) for this gem. I just made it work on 1.9.3
 
-Lets take a look!
+Lets take a look at how this works!
 
 ```ruby
 #!/usr/bin/env ruby
