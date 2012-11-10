@@ -15,7 +15,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = HipchatBot::VERSION
 
-  gem.add_runtime_dependency(%q<ruby-debug>, ">= 0")
   gem.add_runtime_dependency(%q<xmpp4r>, ">= 0")
   gem.add_runtime_dependency(%q<json>, ">= 0")
   gem.add_runtime_dependency(%q<httparty>, ">= 0")
