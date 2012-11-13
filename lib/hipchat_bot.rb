@@ -60,7 +60,7 @@ class HipchatBot
     responders.select {|r| r.responds_to?($1) }.map  do |responder|
       args = command.split
       args.shift
-      ret = instance_exec(responder.block, from, args.join(' '))
+      ret = instance_exec(from, args.join(' '), &responder.block)
       send_response(ret)
       ret
     end
