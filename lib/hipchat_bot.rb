@@ -47,6 +47,11 @@ class HipchatBot
     loop { sleep 1 }
   end
 
+  # @hipchat.say "HELLO"
+  def say(message)
+    send_response(message)
+  end
+
   private
 
   def process(from, command)
